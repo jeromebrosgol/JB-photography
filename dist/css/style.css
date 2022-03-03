@@ -42,7 +42,7 @@ a {
 
 .logo {
   margin-top: 10px;
-  margin-left: 20px; }
+  margin-left: 10px; }
 
 .header__nav {
   grid-column-end: span 2; }
@@ -55,9 +55,13 @@ a {
       text-align: center; }
 
 .nav__hamburger {
+  width: 70px;
+  height: 70px;
   border: 2px solid black;
   border-radius: 10px;
-  margin-top: 20px; }
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px; }
   @media screen and (min-width: 640px) {
     .nav__hamburger {
       display: none; } }
@@ -80,14 +84,14 @@ a {
   color: black;
   padding: 8px;
   font-weight: bold;
-  font-size: 1rem;
-  margin-right: 20px; }
+  font-size: 1rem; }
   .nav__home:hover {
     background: #1709df;
     color: #f0f0e6; }
   @media screen and (min-width: 640px) {
     .nav__home {
-      font-size: 2rem; } }
+      font-size: 2rem;
+      margin-right: 40px; } }
 
 .nav__service {
   border: 2px solid black;
@@ -97,14 +101,14 @@ a {
   color: black;
   padding: 8px;
   font-weight: bold;
-  font-size: 1rem;
-  margin-right: 20px; }
+  font-size: 1rem; }
   .nav__service:hover {
     background: #1709df;
     color: #f0f0e6; }
   @media screen and (min-width: 640px) {
     .nav__service {
-      font-size: 2rem; } }
+      font-size: 2rem;
+      margin-right: 40px; } }
 
 .nav__contact {
   border: 2px solid black;
@@ -114,14 +118,14 @@ a {
   color: black;
   padding: 8px;
   font-weight: bold;
-  font-size: 1rem;
-  margin-right: 20px; }
+  font-size: 1rem; }
   .nav__contact:hover {
     background: #1709df;
     color: #f0f0e6; }
   @media screen and (min-width: 640px) {
     .nav__contact {
-      font-size: 2rem; } }
+      font-size: 2rem;
+      margin-right: 40px; } }
 
 .active {
   background: #aa041a;

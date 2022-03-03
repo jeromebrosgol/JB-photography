@@ -8,7 +8,7 @@
   padding: $padding;
   font-weight: bold;
   font-size: 1rem;
-  margin-right: 20px;
+  
   &:hover {
     background: #1709df;
 
@@ -16,6 +16,7 @@
   }
   @include md{
     font-size: 2rem;
+    margin-right: 40px;
   }
 }
 

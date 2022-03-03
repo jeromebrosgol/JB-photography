@@ -16,7 +16,7 @@
 
 .logo {
   margin-top: 10px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .header__nav {
@@ -34,9 +34,13 @@
 }
 
 .nav__hamburger {
+  width: 70px;
+  height: 70px;
   border: 2px solid black;
   border-radius: 10px;
   margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   @include md {
     display: none;
   }
