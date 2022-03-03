@@ -3,7 +3,6 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 2px;
   justify-items: center;
-  background: rgb(47, 255, 203);
   min-height: 250px;
     @include md{
       min-height: 200px;
