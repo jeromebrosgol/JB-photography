@@ -1,0 +1,33 @@
+.footer{
+background: #0f0f0f;
+display: flex;
+justify-items: center;
+align-items: center;
+}
+
+.footer__logo{
+margin-left: 20px;
+margin-top: 10px;
+color : white;
+}
+
+.footer__copyright{
+color : $footer--color;
+display: flex;
+align-items: center;
+margin-left: 20px;
+}
+
+.footer__svg{
+color : $footer--color;
+width: 30%;
+height: 30%;
+}
+
+.footer__p{
+color : $footer--color;
+font-size: 1rem;
+@include md {
+  font-size: 1.5rem;
+}
+}
